@@ -1,0 +1,29 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    // line-height: 40px;
+
+    .footer-logo {
+      margin-top: 20px;
+    }
+
+    ul {
+      display: flex;
+      padding: 0;
+      width: 50%;
+      justify-content: space-around;
+      list-style: none;
+    }
+
+    a,p,li {
+      font-family: "Lucida Sans Unicode", Verdana;
+      color: white;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
